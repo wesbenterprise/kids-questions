@@ -605,6 +605,11 @@ function KidSelectScreen({ kids, onSelect, onParentMode, theme }) {
   return (
     <div style={screenStyle(theme)}>
       <Clouds theme={theme} />
+      <div style={{ position: "absolute", top: 12, left: 16, zIndex: 10 }}>
+        <a href="https://learning-apps.vercel.app" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: 9, color: "rgba(255,255,255,0.7)", textDecoration: "none" }}>
+          ← HUB
+        </a>
+      </div>
       <div style={cardStyle(theme)}>
         <div style={{ textAlign: "center", marginBottom: 20 }}>
           <h1 style={titleStyle(theme)}>QUESTION QUEST</h1>
